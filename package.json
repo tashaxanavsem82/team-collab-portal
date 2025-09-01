@@ -1,0 +1,28 @@
+{
+  "name": "team-collab-portal",
+  "version": "1.0.0",
+  "description": "A web application for team collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/team-collab-portal.git"
+  },
+  "keywords": [
+    "collaboration",
+    "tasks",
+    "chat"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "socket.io": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "body-parser": "^1.19.0"
+  }
+}
