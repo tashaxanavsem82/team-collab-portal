@@ -16,7 +16,7 @@
     "tasks",
     "chat"
   ],
-  "author": "Updated Author Name",
+  "author": "Your Updated Author Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
