@@ -13,7 +13,7 @@ app.use(express.static('public'));
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/team-collaborate'; // Changed from 'team-collab' to 'team-collaborate'
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/team-collaborate';
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => {
